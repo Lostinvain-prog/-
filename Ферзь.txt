@@ -1,0 +1,67 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if (a == c + 1) and (b == d - 1):
+    print("YES")
+elif (a == c + 2) and (b == d - 2):
+    print("YES")
+elif (a == c + 3) and (b == d - 3):
+    print("YES") 
+elif (a == c + 4) and (b == d - 4):
+    print("YES") 
+elif (a == c + 5) and (b == d - 5):
+    print("YES")
+elif (a == c + 6) and (b == d - 6):
+    print("YES")
+elif (a == c + 7) and (b == d - 7):
+    print("YES")    
+elif (a == c + 1) and (b == d + 1):
+    print("YES")
+elif (a == c + 2) and (b == d + 2):
+    print("YES")
+elif (a == c + 3) and (b == d + 3):
+    print("YES")
+elif (a == c + 4) and (b == d + 4):
+    print("YES")
+elif (a == c + 5) and (b == d + 5):
+    print("YES")
+elif (a == c + 6) and (b == d + 6):
+    print("YES") 
+elif (a == c + 7) and (b == d + 7):
+    print("YES")
+elif (a == c - 1) and (b == d + 1):
+    print("YES")
+elif (a == c - 2) and (b == d + 2):
+    print("YES") 
+elif (a == c - 3) and (b == d + 3):
+    print("YES")  
+elif (a == c - 4) and (b == d + 4):
+    print("YES")
+elif (a == c - 5) and (b == d + 5):
+    print("YES")
+elif (a == c - 6) and (b == d + 6):
+    print("YES")
+elif (a == c - 7) and (b == d + 7):
+    print("YES")    
+elif (a == c - 1) and (b == d - 1):
+    print("YES")
+elif (a == c - 2) and (b == d - 2):
+    print("YES")
+elif (a == c - 3) and (b == d - 3):
+    print("YES")
+elif (a == c - 4) and (b == d - 4):
+    print("YES") 
+elif (a == c - 5) and (b == d - 5):
+    print("YES")
+elif (a == c - 6) and (b == d - 6):
+    print("YES") 
+elif (a == c - 7) and (b == d - 7):
+    print("YES")    
+elif (c >= a and b == d) or (a == c and b >= d) or (c <= a and b == d) or (a == c and b <= d):
+    print("YES")
+else:
+    print("NO")
+
+
+

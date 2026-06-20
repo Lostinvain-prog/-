@@ -1,0 +1,19 @@
+name1 = int(input())
+name2 = int(input())
+name3 = input()
+minus = "-"
+plus = "+"
+aa = "*"
+bb = "/"
+if name3 == plus:
+    print(name1 + name2)
+elif name3 == minus:   
+    print(name1 - name2)
+elif name3 == aa:
+    print(name1 * name2)
+elif name2 == 0:
+    print("На ноль делить нельзя!")
+elif name3 == bb:
+    print(name1 / name2)
+elif name3 != minus or plus or aa or bb:
+    print("Неверная операция") 
